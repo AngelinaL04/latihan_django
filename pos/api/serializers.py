@@ -7,3 +7,5 @@ class TableRestoSerializer(serializers.ModelSerializer):
     class Meta:
         model = TableResto
         fields = ('id', 'code', 'name', 'capacity', 'table_status', 'status')
+        
+        
